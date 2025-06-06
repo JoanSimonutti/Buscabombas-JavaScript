@@ -1,6 +1,6 @@
 ## Buscaminas-JavaScript
 
-Este proyecto es una versión web del clásico juego **Buscaminas**, desarrollada completamente con **HTML**, **CSS** y **JavaScript** puro.<br/>
+Versión del clásico juego **Buscaminas**, desarrollada completamente con **HTML**, **CSS** y **JavaScript**.<br/>
 El objetivo es encontrar todas las minas en el tablero sin hacerlas explotar, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
 
 ---
