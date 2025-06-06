@@ -13,8 +13,8 @@ Este proyecto es una versión web del clásico juego **Buscaminas**, desarrollad
 
 Además, el juego incluye:
 
-- **temporizador de 60 segundos**
-- **menú de ajustes** donde podés elegir el tamaño del tablero y la cantidad de minas.
+- **Temporizador de 60 segundos**
+- **Menú de ajustes** donde podés elegir el tamaño del tablero y la cantidad de minas.
 
 ---
 
@@ -22,7 +22,6 @@ Además, el juego incluye:
 
 ```
 buscaminas/
-│
 ├── index.html           # Archivo principal del juego
 ├── styles.css           # Estilos visuales del tablero y la UI
 ├── game.js              # Lógica del juego (tablero, minas, eventos)
