@@ -96,7 +96,6 @@ function marcar(x, y) {
 
 function perder() {
     detenerTimer();
-    reproducirSonido("perdedor");
     Swal.fire({
         title: "¡Has perdido!",
         icon: "error",
@@ -107,7 +106,6 @@ function perder() {
 function nuevoJuego() {
     generarTablero();
     iniciarTimer();
-    reproducirSonido("nuevojuego");
 }
 
 function ajustes() {
