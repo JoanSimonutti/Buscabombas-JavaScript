@@ -19,19 +19,6 @@ Además, el juego incluye:
 
 ---
 
-### Estructura del proyecto
-
-```
-buscaminas/
-├── index.html           # Archivo principal del juego
-├── styles.css           # Estilos visuales del tablero y la UI
-├── game.js              # Lógica del juego (tablero, minas, eventos)
-├── timer.js             # Control del temporizador
-├── /assets/             # Carpeta con archivos varios
-```
-
----
-
 ### Tecnologías utilizadas
 
 - HTML & CSS
