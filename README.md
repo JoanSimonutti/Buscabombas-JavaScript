@@ -1,6 +1,6 @@
 ## Buscaminas-JavaScript
 
-Este proyecto es una versión web del clásico juego **Buscaminas**, desarrollada completamente con **HTML**, **CSS** y **JavaScript** puro, sin frameworks ni librerías externas (excepto SweetAlert para los mensajes de alerta).<br/>
+Este proyecto es una versión web del clásico juego **Buscaminas**, desarrollada completamente con **HTML**, **CSS** y **JavaScript** puro.<br/>
 El objetivo es encontrar todas las minas en el tablero sin hacerlas explotar, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
 
 ---
@@ -34,8 +34,7 @@ buscaminas/
 
 ### Tecnologías utilizadas
 
-- HTML
-- CSS
+- HTML & CSS
 - JavaScript, para practicar manipulación del DOM, eventos, lógica condicional y timers.
 - [SweetAlert2](https://sweetalert2.github.io/), para las alertas emergentes.
 - [Font Awesome](https://fontawesome.com/), para los iconos del menú.
