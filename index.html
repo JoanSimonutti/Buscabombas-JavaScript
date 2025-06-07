@@ -4,22 +4,17 @@
     <meta charset="UTF-8" />
     <title>Buscaminas</title>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.all.min.js"></script>
   </head>
   <body oncontextmenu="return false">
-    <br />
-    <div class="div-superior">
-      <span id="minas">000</span>
-      <span id="juego-nuevo" onclick="nuevoJuego()">Juego Nuevo</span>
-     <!-- <span id="Ajustes" onclick="ajustes()"> #Elimino el icono de Ajustes -->
-        <i class="fas fa-cog"></i>
-      </span>
+    <div id="contenedor">
+      <div id="panel-superior">
+        <div id="contador-minas">000</div>
+        <div id="boton-reinicio" onclick="nuevoJuego()">😊</div>
+        <div id="temporizador">000</div>
+      </div>
+      <table id="tablero" cellspacing="0" cellpadding="0"></table>
     </div>
-    <table cellspacing="0" cellpadding="0" id="tablero"></table>
     <script src="game.js"></script>
   </body>
 </html>
