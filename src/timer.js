@@ -2,17 +2,17 @@ let tiempoRestante = 60;
 let intervalo;
 
 function iniciarTimer() {
-    tiempoRestante = 60;
-    actualizarTimer();
     if (intervalo) clearInterval(intervalo);
     intervalo = setInterval(() => {
-        tiempoRestante--;
-        if (tiempoRestante <= 0) {
+        if (tiempoRestante > 0) {
+            tiempoRestante--;
+            actualizarTimer();
+        } else {
             perder();
         }
-        actualizarTimer();
     }, 1000);
 }
+
 
 function detenerTimer() {
     clearInterval(intervalo);

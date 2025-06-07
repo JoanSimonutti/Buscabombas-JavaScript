@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#juego-nuevo,
+#Ajustes,
+#minas,
+#timer {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#juego-nuevo,
+#Ajustes,
+#pausar {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #555;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#juego-nuevo:hover,
+#Ajustes:hover,
+#pausar:hover {
+    background-color: #555;
+    transform: scale(1.05);
+    border-color: #ffcc00;
+}
+
+#Ajustes i {
+    transition: transform 0.5s ease;
+}
+
+#Ajustes:hover i {
+    transform: rotate(180deg);
+}
+
+#timer {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+#tablero {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#tablero td {
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    border: 1px solid #666;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+#tablero td.abierta {
+    background-color: #222;
+    color: #0f0;
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    border: 2px solid #888;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#minas,
+#timer {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+
+.info-box {
+    background-color: #333;
+    border: 2px solid #888;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    min-width: 100px;
+}
+
+.bloqueado td {
+    pointer-events: none;
+    opacity: 0.5;
+}
