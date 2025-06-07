@@ -1,3 +1,4 @@
+<img src="assets/buscaminas.png" alt="App-Pic" width="100%">
 ## Buscaminas-JavaScript
 
 Versión del clásico juego **Buscaminas**, desarrollada completamente con **HTML**, **CSS** y **JavaScript**.<br/>
