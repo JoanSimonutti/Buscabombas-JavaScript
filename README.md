@@ -1,4 +1,4 @@
-## 💣 💣 💣 Buscabombas - Versión JavaScript 💣 💣 💣
+## 💣 Buscabombas - Versión JavaScript 💣 💣 💣
 
 <!-- <img src="assets/buscabombas.png" alt="App-Pic" width="100%"> -->
 <img src="assets/buscabombas2.png" alt="App-Pic" width="100%">
@@ -30,8 +30,6 @@ Usalos como pistas para deducir dónde están las trampas.
 - 🔍 Observá bien los números: ¡todo es lógica!
 - 🧠 Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
 - 🎲 A veces toca arriesgar... pero hacelo con estrategia.
-
----
 
 🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora](https://buscaminas-java-script.vercel.app/)
 
