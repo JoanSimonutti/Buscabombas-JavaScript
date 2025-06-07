@@ -4,6 +4,8 @@
 Versión del clásico juego **Buscaminas**, desarrollada completamente con **HTML**, **CSS** y **JavaScript**.<br/>
 El objetivo es **encontrar todas las minas en el tablero sin hacerlas explotar**, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
 
+Probalo acá: [Buscaminas](https://buscaminas-java-script.vercel.app/)
+
 ---
 
 ### ¿Cómo se juega?
