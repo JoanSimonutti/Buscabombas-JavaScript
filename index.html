@@ -2,19 +2,17 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Buscaminas</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Buscaminas Clásico</title>
+    <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.all.min.js"></script>
   </head>
   <body oncontextmenu="return false">
-    <div id="contenedor">
-      <div id="panel-superior">
-        <div id="contador-minas">000</div>
-        <div id="boton-reinicio" onclick="nuevoJuego()">😊</div>
-        <div id="temporizador">000</div>
-      </div>
-      <table id="tablero" cellspacing="0" cellpadding="0"></table>
+    <div id="header">
+      <div id="minas">000</div>
+      <button id="boton-reinicio" title="Nuevo Juego">🙂</button>
+      <div id="temporizador">000</div>
     </div>
-    <script src="game.js"></script>
+    <table cellspacing="0" cellpadding="0" id="tablero"></table>
+    <script src="src/game.js"></script>
   </body>
 </html>

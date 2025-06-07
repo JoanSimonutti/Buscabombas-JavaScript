@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    user-select: none;
+    color: #fff;
+    /* cursor: url('cursor-retro.png'), auto; */
+    /* ← descomenta si tenés un cursor personalizado */
+}
+
+#header {
+    width: max-content;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    padding: 20px 20px;
+    align-items: center;
+    gap: 150px;
+}
+
+#minas,
+#temporizador {
+    font-family: 'Digital-7', monospace;
+    font-weight: bold;
+    font-size: 38px;
+    width: 100px;
+    height: 64px;
+    color: #0ff;
+    background: #000;
+    border: 1px solid #0ff;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #0ff;
+    /* animation: glow 2s infinite; */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #0ff;
+    }
+
+    50% {
+        box-shadow: 0 0 15px #0ff;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #0ff;
+    }
+}
+
+#boton-reinicio {
+    font-size: 38px;
+    width: 70px;
+    height: 70px;
+    margin: 0 16px;
+    background: #002;
+    border: 1px solid #ff0;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 60px;
+    transition: all 0.2s ease-in-out;
+    color: #ff0;
+    box-shadow: 0 0 10px #ff0;
+
+}
+
+#boton-reinicio:hover {
+    background: #333;
+    box-shadow: 0 0 15px #ff0;
+}
+
+#boton-reinicio:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 5px #ff0 inset;
+}
+
+#tablero {
+    border: 1px solid #3affff;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 12px #00f0ff;
+    animation: glow 2s infinite;
+}
+
+#tablero td {
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    border: 1px solid #00f0ff;
+    box-shadow: inset 0 0 4px #0ff4;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 27px;
+    color: white;
+    transition: all 0.2s ease;
+    padding: 2px;
+    font-family: 'Orbitron', sans-serif;
+    animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#tablero td:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffffffff;
+    border: 1px solid #ffffffff;
+}
+
+#tablero td.abierto {
+    background: #1e1e1e;
+    box-shadow: inset 0 0 8px #0ff2;
+    color: #fff;
+    cursor: default;
+    animation: abrirCelda 0.2s ease;
+}
+
+@keyframes abrirCelda {
+    from {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#tablero td.mina {
+    background: #ff0044;
+    color: #fff;
+    box-shadow: 0 0 8px #ff0044;
+}
+
+#tablero td.marca {
+    background: #1e1e1e;
+    color: #00ffff;
+    text-shadow: 0 0 4px #00ffff;
+}
+
+#tablero td.num1 {
+    color: #00ff88;
+    text-shadow: 0 0 4px #00ff88;
+}
+
+#tablero td.num2 {
+    color: #ff0;
+    text-shadow: 0 0 4px #ff0;
+}
+
+#tablero td.num3 {
+    color: #ff44aa;
+    text-shadow: 0 0 4px #ff44aa;
+}
+
+#tablero td.num4 {
+    color: #ffaa00;
+    text-shadow: 0 0 4px #ffaa00;
+}
+
+#tablero td.num5 {
+    color: #ff0000;
+    text-shadow: 0 0 4px #ff0000;
+}
+
+#tablero td.num6 {
+    color: #00ffff;
+    text-shadow: 0 0 4px #00ffff;
+}
+
+#tablero td.num7 {
+    color: #fff;
+    text-shadow: 0 0 4px #fff;
+}
+
+#tablero td.num8 {
+    color: #aaa;
+    text-shadow: 0 0 4px #aaa;
+}
+
+/* Animación al ganar o perder (activala con body.ganado o body.perdido) */
+body.ganado {
+    animation: victoria 0.6s ease forwards;
+}
+
+@keyframes victoria {
+    0% {
+        background: #000;
+    }
+
+    50% {
+        background: #0f0;
+    }
+
+    100% {
+        background: #000;
+    }
+}
+
+body.perdido {
+    animation: derrota 0.6s ease forwards;
+}
+
+@keyframes derrota {
+    0% {
+        background: #000;
+    }
+
+    50% {
+        background: #f00;
+    }
+
+    100% {
+        background: #000;
+    }
+}
