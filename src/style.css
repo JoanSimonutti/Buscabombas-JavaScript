@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 5px;
     font-family: 'Orbitron', sans-serif;
     user-select: none;
     color: #fff;
@@ -21,7 +21,18 @@ body {
     background: #000;
     padding: 20px 20px;
     align-items: center;
-    gap: 150px;
+    gap: 30px;
+
+}
+
+#footer {
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+    padding: 20px;
+    align-items: center;
 }
 
 #minas,
@@ -233,4 +244,94 @@ body.perdido {
     100% {
         background: #000;
     }
+}
+
+/* Botón estilo neón */
+.neon-button {
+    background: transparent;
+    border: 2px solid #0ff;
+    color: #0ff;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #0ff;
+    box-shadow: 0 0 8px #0ff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.neon-button:hover {
+    background: rgba(0, 255, 255, 0.1);
+    box-shadow: 0 0 12px #0ff, 0 0 20px #0ff;
+}
+
+/* Modal general */
+.modal {
+    display: none;
+    /* oculto por defecto */
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(3px);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: #111;
+    border: 2px solid #0ff;
+    color: #0ff;
+    padding: 20px 30px;
+    max-width: 600px;
+    width: 90%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 0 0 15px #0ff, 0 0 30px #00ffff66;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+}
+
+/* Botón de cierre */
+.close-button {
+    color: #0ff;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 0 5px #0ff;
+}
+
+.close-button:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
+
+.neon-link {
+    color: #0ff;
+    text-decoration: none;
+    font-size: 2.3rem;
+    padding: 2px 8px;
+    background: transparent;
+    border: 2px solid #0ff;
+    text-shadow: 0 0 5px #0ff;
+    box-shadow: 0 0 8px #0ff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.neon-link:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+    color: #0ff;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    text-shadow: 0 0 10px #0ff;
 }

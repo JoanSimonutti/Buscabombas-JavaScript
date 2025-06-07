@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <title>Buscaminas Clásico</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.all.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6495b88481.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body oncontextmenu="return false">
     <div id="header">
@@ -13,6 +22,45 @@
       <div id="temporizador">000</div>
     </div>
     <table cellspacing="0" cellpadding="0" id="tablero"></table>
+    <div id="footer">
+      <!-- Botón para abrir el modal -->
+      <button id="openModal" class="neon-button">¿Cómo se juega?</button>
+
+      <!-- Modal -->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="closeModal" class="close-button">&times;</span>
+          <h2>🕹️ ¿Cómo se juega al Buscaminas?</h2>
+          <p>
+            <strong>🎯 Objetivo:</strong> Descubrí todas las celdas sin minas.
+            Si hacés clic en una mina, perdés.
+          </p>
+          <p>
+            <strong>🧱 Cómo funciona:</strong> Algunas celdas tienen minas,
+            otras tienen números según cuántas minas hay cerca.
+          </p>
+          <p>
+            <strong>🖱️ Controles:</strong> <br />- Clic izquierdo: abre una
+            celda. <br />- Clic derecho (o toque largo): marca una mina con 🚩.
+          </p>
+          <p>
+            <strong>📟 Indicadores:</strong> Temporizador, contador de minas,
+            botón de reinicio.
+          </p>
+          <p>
+            <strong>🧠 Consejos:</strong> Usá la lógica para deducir minas. Si
+            el número coincide con las banderas vecinas, las demás son seguras.
+            A veces hay que adivinar.
+          </p>
+        </div>
+      </div>
+      <a
+        href="https://github.com/JoanSimonutti"
+        target="_blank"
+        class="neon-link"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+    </div>
     <script src="src/game.js"></script>
   </body>
 </html>
