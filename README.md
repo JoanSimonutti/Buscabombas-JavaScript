@@ -5,7 +5,7 @@
 Versión del clásico juego Buscaminas, desarrollada con HTML, CSS y JavaScript.
 El objetivo es encontrar todas las minas en el tablero sin hacerlas explotar, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
 
-**_ Jugalo online aquí [Buscaminas](https://buscaminas-java-script.vercel.app/) _**
+**Jugalo online aquí [Buscaminas](https://buscaminas-java-script.vercel.app/)**
 
 ---
 
