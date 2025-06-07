@@ -76,21 +76,25 @@ body {
     border-radius: 6px;
     cursor: pointer;
     line-height: 60px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out, transform 0.6s ease;
     color: #ff0;
     box-shadow: 0 0 10px #ff0;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #boton-reinicio:hover {
     background: #333;
     box-shadow: 0 0 15px #ff0;
+    transform: rotate(360deg);
 }
 
 #boton-reinicio:active {
     transform: scale(0.95);
     box-shadow: 0 0 5px #ff0 inset;
 }
+
 
 #tablero {
     border: 1px solid #3affff;
