@@ -1,6 +1,6 @@
 <img src="assets/buscaminas.png" alt="App-Pic" width="100%">
 
-## 💣 Buscaminas - JavaScript
+## 💣 Buscabombas - JavaScript
 
 Versión del clásico juego Buscaminas, desarrollada con HTML, CSS y JavaScript.
 El objetivo es encontrar todas las minas en el tablero sin hacerlas explotar, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
