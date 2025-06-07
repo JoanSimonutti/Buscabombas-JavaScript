@@ -31,7 +31,7 @@ Usalos como pistas para deducir dónde están las trampas.
 - 🧠 Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
 - 🎲 A veces toca arriesgar... pero hacelo con estrategia.
 
-🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora](https://buscaminas-java-script.vercel.app/)
+🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora!](https://buscaminas-java-script.vercel.app/)
 
 ---
 
