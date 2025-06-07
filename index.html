@@ -2,9 +2,8 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buscaminas</title>
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -12,21 +11,15 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.all.min.js"></script>
   </head>
   <body oncontextmenu="return false">
-    <div class="top-bar">
-      <button id="juego-nuevo" onclick="nuevoJuego()">Nuevo Juego</button>
-      <!-- <button id="Ajustes" onclick="ajustes()"> 
+    <br />
+    <div class="div-superior">
+      <span id="minas">000</span>
+      <span id="juego-nuevo" onclick="nuevoJuego()">Juego Nuevo</span>
+     <!-- <span id="Ajustes" onclick="ajustes()"> #Elimino el icono de Ajustes -->
         <i class="fas fa-cog"></i>
-      </button> -->
+      </span>
     </div>
-    <div class="top-bar">
-      <div class="info-box" id="minas">Minas: 000</div>
-      <div class="info-box" id="timer">01:00</div>
-      <button id="pausar" onclick="togglePausa()">Pausar</button>
-    </div>
-
     <table cellspacing="0" cellpadding="0" id="tablero"></table>
-
-    <script src="src/timer.js"></script>
-    <script src="src/game.js"></script>
+    <script src="game.js"></script>
   </body>
 </html>
