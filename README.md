@@ -1,4 +1,4 @@
-<img src="assets/buscaminas.png" alt="App-Pic" width="100%">
+<img src="assets/buscabombas.png" alt="App-Pic" width="100%">
 
 ## 💣 Buscabombas - JavaScript 💣 💣 💣
 
