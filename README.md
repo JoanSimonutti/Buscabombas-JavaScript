@@ -3,7 +3,7 @@
 ## 💣 Buscabombas - JavaScript
 
 Versión del clásico juego Buscaminas, desarrollada con HTML, CSS y JavaScript.
-El objetivo es encontrar todas las minas en el tablero sin hacerlas explotar, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
+El objetivo es encontrar todas las bombas en el tablero sin hacerlas explotar, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
 
 - **Jugalo online aquí [Buscabombas](https://buscaminas-java-script.vercel.app/)**
 
