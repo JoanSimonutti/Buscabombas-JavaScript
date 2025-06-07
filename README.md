@@ -1,11 +1,9 @@
-## 💣 💣 💣 Buscabombas - JavaScript 💣 💣 💣
+## 💣 💣 💣 Buscabombas - Versión JavaScript 💣 💣 💣
 
 <!-- <img src="assets/buscabombas.png" alt="App-Pic" width="100%"> -->
 <img src="assets/buscabombas2.png" alt="App-Pic" width="100%">
 
----
-
-Versión del clásico juego Buscaminas, desarrollada con HTML, CSS y JavaScript.
+Versión del clásico juego Buscaminas, desarrollada con HTML, CSS y JavaScript.<br/>
 El objetivo es encontrar todas las bombas en el tablero sin hacerlas explotar, utilizando lógica y marcando cuidadosamente las casillas sospechosas.
 
 - **Jugalo online aquí [Buscabombas](https://buscaminas-java-script.vercel.app/)**
