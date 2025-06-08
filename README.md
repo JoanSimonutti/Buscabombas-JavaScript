@@ -33,7 +33,7 @@
 - Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
 - A veces toca arriesgar... pero hacelo con estrategia.
 
-## Listo para demostrar tu ingenio? <br/> Para jugar [Click Acá!](https://buscabombas.vercel.app/)
+## Listo para poner a prueba tu ingenio? <br/>[👉 Hacé clic acá para jugar!](https://buscabombas.vercel.app/)
 
 <div align="end">
 
