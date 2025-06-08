@@ -3,11 +3,12 @@
 <!-- <img src="assets/buscabombas.png" alt="App-Pic" width="100%"> -->
 <img src="assets/buscabombas4.png" alt="App-Pic" width="100%">
 
-## 🕹️ ¿Cómo se juega al **Buscabombas**?
+## 🕹️ ¿Qué es _Buscabombas_?
 
-Sumergite en este clásico de la lógica y el suspenso. <br/>
-Tu misión es clara: **descubrir todas las casillas sin detonar una sola bomba.** <br/>
-¿Tenés lo que se necesita?
+_Buscabombas_ es un juego interactivo desarrollado con **HTML, CSS y JavaScript**, inspirado en el clásico **Buscaminas**.  
+Sumergite en este desafío de lógica y estrategia, donde cada clic cuenta.  
+Tu misión es clara: **revelar todas las casillas sin detonar una sola bomba**.  
+¿Estás listo para demostrar tu precisión y agudeza mental?
 
 ### 🎯 Objetivo
 
