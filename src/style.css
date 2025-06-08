@@ -306,9 +306,9 @@ body.perdido {
 .close-button {
     color: #0ff;
     position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 24px;
+    top: 15px;
+    right: 40px;
+    font-size: 4rem;
     font-weight: bold;
     cursor: pointer;
     text-shadow: 0 0 5px #0ff;
@@ -344,9 +344,9 @@ body.perdido {
     font-size: 1.5rem;
     font-weight: bold;
     color: #00ffff;
-    text-align: center;
+    text-align: end;
     margin-top: 20px;
-    animation: glow 2s infinite alternate;
+    /*animation: glow 1.3s infinite alternate;*/
 }
 
 @keyframes glow {
@@ -356,5 +356,23 @@ body.perdido {
 
     100% {
         text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff, 0 0 30px #ffffff;
+    }
+}
+
+/* PROBANDO CLASES RESPONSIVAS */
+
+@media (max-width: 600px) {
+
+    #header,
+    #footer {
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+    }
+
+    #tablero td {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
     }
 }
