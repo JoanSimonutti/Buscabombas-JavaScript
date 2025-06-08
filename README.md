@@ -5,7 +5,7 @@
 
 ## 🕹️ ¿Qué es _Buscabombas_?
 
-_Buscabombas_ es un juego interactivo desarrollado con **HTML, CSS y JavaScript**, inspirado en el clásico **Buscaminas**.  
+_Buscabombas_ es un juego interactivo desarrollado con **HTML, CSS y JavaScript**, <br/>inspirado en el clásico **Buscaminas**.  
 Sumergite en este desafío de lógica y estrategia, donde cada clic cuenta.  
 Tu misión es clara: **revelar todas las casillas sin detonar una sola bomba**.  
 ¿Estás listo para demostrar tu precisión y agudeza mental?
