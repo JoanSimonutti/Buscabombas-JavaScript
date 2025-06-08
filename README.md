@@ -27,9 +27,9 @@ Usalos como pistas para deducir dónde están las trampas.
 
 ### 💡 Tips para ganar como un experto
 
-- 🔍 Observá bien los números: ¡todo es lógica!
-- 🧠 Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
-- 🎲 A veces toca arriesgar... pero hacelo con estrategia.
+- Observá bien los números: ¡todo es lógica!
+- Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
+- A veces toca arriesgar... pero hacelo con estrategia.
 
 🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora!](https://buscabombas.vercel.app/)
 
