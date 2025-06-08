@@ -5,20 +5,20 @@
 
 ## 🕹️ ¿Qué es _Buscabombas_?
 
-_Buscabombas_ es un juego interactivo desarrollado con **HTML, CSS y JavaScript**, <br/>inspirado en el clásico **Buscaminas**.  
-Sumergite en este desafío de lógica y estrategia, donde cada clic cuenta.  
-Tu misión es clara: **revelar todas las casillas sin detonar una sola bomba**.  
-¿Estás listo para demostrar tu precisión y agudeza mental?
+- _Buscabombas_ es un juego interactivo desarrollado con **HTML, CSS y JavaScript**, <br/>inspirado en el clásico **Buscaminas**.
+- Sumergite en este desafío de lógica y estrategia, donde cada clic cuenta.
+- Tu misión es clara: **revelar todas las casillas sin detonar una sola bomba**.
+- ¿Estás listo para demostrar tu precisión y agudeza mental?
 
 ### 🎯 Objetivo
 
-Descubrí todas las casillas **que no tienen bombas**.  
-Si hacés clic en una bomba... **💥 BOOM, perdiste.**
+- Descubrí todas las casillas **que no tienen bombas**.
+- Si hacés clic en una bomba... **💥 BOOM, perdiste.**
 
 ### 🔢 ¿Y los números?
 
-Cada número representa **cuántas bombas hay en las casillas que lo rodean** (8 como máximo).  
-Usalos como pistas para deducir dónde están las trampas.
+- Cada número representa **cuántas bombas hay en las casillas que lo rodean** (8 como máximo).
+- Usalos como pistas para deducir dónde están las trampas.
 
 ### 🖱️ Controles & Indicadores
 
@@ -33,9 +33,7 @@ Usalos como pistas para deducir dónde están las trampas.
 - Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
 - A veces toca arriesgar... pero hacelo con estrategia.
 
-🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora!](https://buscabombas.vercel.app/)
-
----
+# 🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora!](https://buscabombas.vercel.app/)
 
 <div align="end">
 
