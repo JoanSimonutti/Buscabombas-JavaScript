@@ -5,7 +5,7 @@
 
 ## 🕹️ ¿Cómo se juega al **Buscabombas**?
 
-Sumergite en este clásico de la lógica y el suspenso. Tu misión es clara:  
+Sumergite en este clásico de la lógica y el suspenso.<br/>Tu misión es clara:  
 **descubrir todas las casillas sin detonar una sola bomba.** ¿Tenés lo que se necesita?
 
 ### 🎯 Objetivo
