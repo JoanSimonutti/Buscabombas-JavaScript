@@ -363,16 +363,73 @@ body.perdido {
 
 @media (max-width: 600px) {
 
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* vertical */
+        background-color: #000;
+        /* o el color que uses */
+    }
+
     #header,
     #footer {
-        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
         gap: 10px;
-        width: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+        flex-direction: row;
+        /* se mantiene horizontal */
+    }
+
+    #tablero {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
     }
 
     #tablero td {
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+        /* tamaño de fuente reducido */
+        padding: 0;
+    }
+
+    .modal-content {
+        width: 95%;
+        max-height: 80vh;
+        overflow-y: auto;
+        font-size: 14px;
+    }
+
+    .modal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .juego-final {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #openModal,
+    .close-button {
+        font-size: 16px;
+    }
+
+    #boton-reinicio {
         font-size: 20px;
+        width: 40px;
+        height: 40px;
     }
 }
