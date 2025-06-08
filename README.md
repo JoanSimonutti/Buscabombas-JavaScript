@@ -1,7 +1,7 @@
 ## 💣 Buscabombas - Versión JavaScript 💣 💣 💣
 
 <!-- <img src="assets/buscabombas.png" alt="App-Pic" width="100%"> -->
-<img src="assets/buscabombas3.png" alt="App-Pic" width="100%">
+<img src="assets/buscabombas4.png" alt="App-Pic" width="100%">
 
 ## 🕹️ ¿Cómo se juega al **Buscabombas**?
 
@@ -20,10 +20,10 @@ Usalos como pistas para deducir dónde están las trampas.
 
 ### 🖱️ Controles & Indicadores
 
-- 🖱️ **Clic izquierdo:** Revela una casilla.
-- 🚩 **Clic derecho:** Coloca o quita una bandera en casillas sospechosas.
-- 🔢 **Contador de minas:** Muestra cuántas bombas quedan por encontrar (arriba a la izquierda).
-- 😀 **Botón de reinicio:** Reinicia la partida cuando quieras.
+- **Clic izquierdo:** Revela una casilla.
+- **Clic derecho:** Coloca o quita una bandera 🚩 en casillas sospechosas.
+- **Contador de minas:** Muestra cuántas bombas quedan por encontrar (arriba a la izquierda).
+- **Botón de reinicio:** Reinicia la partida cuando quieras con el emoji 😀.
 
 ### 💡 Tips para ganar como un experto
 
@@ -31,7 +31,7 @@ Usalos como pistas para deducir dónde están las trampas.
 - 🧠 Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
 - 🎲 A veces toca arriesgar... pero hacelo con estrategia.
 
-🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora!](https://buscaminas-java-script.vercel.app/)
+🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora!](https://buscabombas.vercel.app/)
 
 ---
 
