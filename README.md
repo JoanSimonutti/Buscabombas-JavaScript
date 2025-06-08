@@ -1,4 +1,4 @@
-## 💣 Buscabombas - Versión JavaScript 💣 💣 💣
+## 💣 💣 💣 Buscabombas - Versión JavaScript 💣 💣 💣
 
 <!-- <img src="assets/buscabombas.png" alt="App-Pic" width="100%"> -->
 <img src="assets/buscabombas4.png" alt="App-Pic" width="100%">
