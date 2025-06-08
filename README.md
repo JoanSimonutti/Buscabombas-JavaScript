@@ -15,7 +15,7 @@
 - Descubrí todas las casillas **que no tienen bombas**.
 - Si hacés clic en una bomba... **💥 BOOM, perdiste.**
 
-### 🔢 ¿Y los números?
+### 🔢 ¿Que significan los números?
 
 - Cada número representa **cuántas bombas hay en las casillas que lo rodean** (8 como máximo).
 - Usalos como pistas para deducir dónde están las trampas.
@@ -27,13 +27,13 @@
 - **Contador de minas:** Muestra cuántas bombas quedan por encontrar (arriba a la izquierda).
 - **Botón de reinicio:** Reinicia la partida cuando quieras con el emoji 😀.
 
-### 💡 Tips para ganar como un experto
+### 🔥 Tips para ganar como un experto
 
 - Observá bien los números: ¡todo es lógica!
 - Si un número coincide con la cantidad de banderas a su alrededor, las demás casillas cercanas están a salvo.
 - A veces toca arriesgar... pero hacelo con estrategia.
 
-# 🔥 ¿Listo para demostrar tu ingenio? [Jugá ahora!](https://buscabombas.vercel.app/)
+# ¿Listo para demostrar tu ingenio? <br/> Para jugar online [Click aquí!](https://buscabombas.vercel.app/)
 
 <div align="end">
 
