@@ -17,7 +17,7 @@
 
 ### 🔢 ¿Que significan los números?
 
-- Cada número representa **cuántas bombas hay en las casillas que lo rodean** (8 como máximo).
+- Cada número representa **cuántas bombas hay en las casillas que lo rodean**.
 - Usalos como pistas para deducir dónde están las trampas.
 
 ### 🖱️ Controles & Indicadores
