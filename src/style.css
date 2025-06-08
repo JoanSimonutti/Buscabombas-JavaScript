@@ -359,7 +359,7 @@ body.perdido {
     }
 }
 
-/* PROBANDO CLASES RESPONSIVAS */
+/* CLASES RESPONSIVAS */
 
 @media (max-width: 600px) {
 
@@ -367,54 +367,81 @@ body.perdido {
     body {
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
-        box-sizing: border-box;
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* vertical */
         background-color: #000;
-        /* o el color que uses */
+        /* ajustá a tu fondo */
+        box-sizing: border-box;
     }
 
     #header,
     #footer {
         width: 100%;
-        justify-content: space-between;
-        gap: 10px;
-        padding: 10px;
-        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         flex-direction: row;
-        /* se mantiene horizontal */
+        gap: 10px;
+        padding: 8px;
+        box-sizing: border-box;
     }
 
     #tablero {
-        margin: 0 auto;
+        border-collapse: collapse;
+        margin: 0;
         padding: 0;
         box-sizing: border-box;
+        table-layout: fixed;
     }
 
     #tablero td {
         width: 28px;
         height: 28px;
-        font-size: 16px;
-        /* tamaño de fuente reducido */
+        font-size: 14px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 28px;
         padding: 0;
+        overflow: hidden;
+        box-sizing: border-box;
     }
 
-    .modal-content {
-        width: 95%;
-        max-height: 80vh;
-        overflow-y: auto;
-        font-size: 14px;
+    #boton-reinicio {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
     }
 
     .modal {
-        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
         align-items: center;
         justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .modal-content {
+        background: #111;
+        color: #fff;
+        width: 100%;
+        max-height: 90%;
+        overflow-y: auto;
+        border-radius: 10px;
+        padding: 16px;
+        font-size: 14px;
+        box-sizing: border-box;
     }
 
     .juego-final {
@@ -425,11 +452,5 @@ body.perdido {
     #openModal,
     .close-button {
         font-size: 16px;
-    }
-
-    #boton-reinicio {
-        font-size: 20px;
-        width: 40px;
-        height: 40px;
     }
 }
