@@ -1,7 +1,7 @@
 // Configuración inicial
 const filas = 13;
 const columnas = 15;
-const minasCantidad = 50;
+const minasCantidad = 40;
 const lado = 30;
 
 let tablero = [];
