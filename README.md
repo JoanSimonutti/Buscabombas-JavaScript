@@ -9,7 +9,7 @@
 - Sumergite en este desafío de lógica y estrategia, donde cada clic cuenta.
 - Tu misión es clara: **revelar todas las casillas sin detonar una sola bomba**.
 
-## ¿Estás listo para demostrar tu precisión y agudeza mental?<br>[👉 Hacé clic acá para jugar!](https://buscabombas.vercel.app/)
+## ¿Estás listo?<br>[👉 Hacé clic acá para jugar!](https://buscabombas.vercel.app/)
 
 <div align="end">
 
