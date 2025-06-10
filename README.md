@@ -10,12 +10,7 @@
 - Tu misión es clara: **revelar todas las casillas sin detonar una sola bomba**.
 - ¿Estás listo para demostrar tu precisión y agudeza mental?
 
-### 🎯 Objetivo
-
-- Descubrí todas las casillas **que no tienen bombas**.
-- Si hacés clic en una bomba... **💥 BOOM, perdiste.**
-
-## Listo para poner a prueba tu ingenio? <br/>[👉 Hacé clic acá para jugar!](https://buscabombas.vercel.app/)
+## [👉 Hacé clic acá para jugar!](https://buscabombas.vercel.app/)
 
 <div align="end">
 
