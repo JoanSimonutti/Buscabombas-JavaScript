@@ -7,9 +7,9 @@
 
 - _Buscabombas_ es un juego interactivo inspirado en el clásico **Buscaminas**, <br/> desarrollado con **HTML, CSS y JavaScript**.
 - Sumergite en este desafío de lógica y estrategia, donde cada clic cuenta.
-- Tu misión es clara: **revelar todas las casillas sin detonar una sola bomba**.
+- Tu misión es clara: **revelar todas las casillas sin detonar ninguna bomba**.
 
-## 👉 ¿Estás listo?<br>[Hacé clic acá para jugar!](https://buscabombas.vercel.app/)
+## 😀 ¿Estás listo?<br>[👉 Hacé clic acá para jugar!](https://buscabombas.vercel.app/)
 
 <div align="end">
 
